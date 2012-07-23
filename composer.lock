@@ -1,5 +1,5 @@
 {
-    "hash": "42e07df9ea2034ef0adf834c37af60c0",
+    "hash": "b0a6ac365c62fd901b8374cfbfadc86a",
     "packages": [
         {
             "package": "symfony/class-loader",
@@ -10,14 +10,20 @@
         {
             "package": "symfony/http-foundation",
             "version": "dev-master",
+            "source-reference": "bf8937c2e1488cec939a65c7f3aa8ef08079312c",
+            "commit-date": "1342900339"
+        },
+        {
+            "package": "symfony/routing",
+            "version": "dev-master",
             "alias-pretty-version": "2.1.x-dev",
             "alias-version": "2.1.9999999.9999999-dev"
         },
         {
-            "package": "symfony/http-foundation",
+            "package": "symfony/routing",
             "version": "dev-master",
-            "source-reference": "bf8937c2e1488cec939a65c7f3aa8ef08079312c",
-            "commit-date": "1342900339"
+            "source-reference": "3630f2d08515bbad980c0d654433b6689cf460a2",
+            "commit-date": "1342708743"
         }
     ],
     "packages-dev": null,
@@ -27,6 +33,7 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "symfony/class-loader": 20,
-        "symfony/http-foundation": 20
+        "symfony/http-foundation": 20,
+        "symfony/routing": 20
     }
 }

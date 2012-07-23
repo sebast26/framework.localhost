@@ -4,7 +4,7 @@
         "version": "dev-master",
         "version_normalized": "9999999-dev",
         "target-dir": "Symfony/Component/ClassLoader",
-        "time": "2012-07-15 08:13:51",
+        "time": "2012-07-15 06:13:51",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/ClassLoader",
@@ -59,7 +59,7 @@
         "version": "dev-master",
         "version_normalized": "9999999-dev",
         "target-dir": "Symfony/Component/HttpFoundation",
-        "time": "2012-07-21 19:52:19",
+        "time": "2012-07-21 17:52:19",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/HttpFoundation",
@@ -104,6 +104,69 @@
             "psr-0": {
                 "Symfony\\Component\\HttpFoundation": "",
                 "SessionHandlerInterface": "Symfony/Component/HttpFoundation/Resources/stubs"
+            }
+        }
+    },
+    {
+        "name": "symfony/routing",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "target-dir": "Symfony/Component/Routing",
+        "time": "2012-07-19 14:39:03",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/Routing",
+            "reference": "3630f2d08515bbad980c0d654433b6689cf460a2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://github.com/symfony/Routing/zipball/3630f2d08515bbad980c0d654433b6689cf460a2",
+            "reference": "3630f2d08515bbad980c0d654433b6689cf460a2",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "require-dev": {
+            "symfony/config": "2.1.*",
+            "symfony/yaml": "2.1.*",
+            "doctrine/common": ">=2.2,<2.4-dev",
+            "symfony/http-kernel": "2.1.*"
+        },
+        "suggest": {
+            "symfony/config": "dev-master",
+            "symfony/yaml": "dev-master",
+            "doctrine/common": ">=2.2,<2.4-dev"
+        },
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.1-dev"
+            }
+        },
+        "installation-source": "source",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com",
+                "homepage": null,
+                "role": null
+            },
+            {
+                "name": "Symfony Community",
+                "email": null,
+                "homepage": "http://symfony.com/contributors",
+                "role": null
+            }
+        ],
+        "description": "Symfony Routing Component",
+        "homepage": "http://symfony.com",
+        "autoload": {
+            "psr-0": {
+                "Symfony\\Component\\Routing": ""
             }
         }
     }
