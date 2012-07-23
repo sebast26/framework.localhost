@@ -4,7 +4,7 @@
         "version": "dev-master",
         "version_normalized": "9999999-dev",
         "target-dir": "Symfony/Component/ClassLoader",
-        "time": "2012-07-15 10:13:51",
+        "time": "2012-07-15 08:13:51",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/ClassLoader",
@@ -59,7 +59,7 @@
         "version": "dev-master",
         "version_normalized": "9999999-dev",
         "target-dir": "Symfony/Component/HttpFoundation",
-        "time": "2012-07-23 11:18:38",
+        "time": "2012-07-23 09:18:38",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/HttpFoundation",
@@ -112,7 +112,7 @@
         "version": "dev-master",
         "version_normalized": "9999999-dev",
         "target-dir": "Symfony/Component/Routing",
-        "time": "2012-07-19 14:39:03",
+        "time": "2012-07-19 12:39:03",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/Routing",
@@ -167,6 +167,137 @@
         "autoload": {
             "psr-0": {
                 "Symfony\\Component\\Routing": ""
+            }
+        }
+    },
+    {
+        "name": "symfony/event-dispatcher",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "target-dir": "Symfony/Component/EventDispatcher",
+        "time": "2012-07-19 23:18:14",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/EventDispatcher",
+            "reference": "v2.1.0-BETA4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://github.com/symfony/EventDispatcher/zipball/v2.1.0-BETA4",
+            "reference": "v2.1.0-BETA4",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "require-dev": {
+            "symfony/dependency-injection": "2.1.*"
+        },
+        "suggest": {
+            "symfony/dependency-injection": "dev-master",
+            "symfony/http-kernel": "dev-master"
+        },
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.1-dev"
+            }
+        },
+        "installation-source": "source",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com",
+                "homepage": null,
+                "role": null
+            },
+            {
+                "name": "Symfony Community",
+                "email": null,
+                "homepage": "http://symfony.com/contributors",
+                "role": null
+            }
+        ],
+        "description": "Symfony EventDispatcher Component",
+        "homepage": "http://symfony.com",
+        "autoload": {
+            "psr-0": {
+                "Symfony\\Component\\EventDispatcher": ""
+            }
+        }
+    },
+    {
+        "name": "symfony/http-kernel",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "target-dir": "Symfony/Component/HttpKernel",
+        "time": "2012-07-23 17:27:52",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/HttpKernel",
+            "reference": "91f3e0892bd0c7f2a5ade8a82024ec4925e26c64"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://github.com/symfony/HttpKernel/zipball/91f3e0892bd0c7f2a5ade8a82024ec4925e26c64",
+            "reference": "91f3e0892bd0c7f2a5ade8a82024ec4925e26c64",
+            "shasum": ""
+        },
+        "require": {
+            "symfony/event-dispatcher": "2.1.*",
+            "symfony/http-foundation": "2.1.*",
+            "php": ">=5.3.3"
+        },
+        "require-dev": {
+            "symfony/browser-kit": "2.1.*",
+            "symfony/class-loader": "2.1.*",
+            "symfony/config": "2.1.*",
+            "symfony/console": "2.1.*",
+            "symfony/dependency-injection": "2.1.*",
+            "symfony/finder": "2.1.*",
+            "symfony/process": "2.1.*",
+            "symfony/routing": "2.1.*"
+        },
+        "suggest": {
+            "symfony/browser-kit": "dev-master",
+            "symfony/class-loader": "dev-master",
+            "symfony/config": "dev-master",
+            "symfony/console": "dev-master",
+            "symfony/dependency-injection": "dev-master",
+            "symfony/finder": "dev-master"
+        },
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.1-dev"
+            }
+        },
+        "installation-source": "source",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com",
+                "homepage": null,
+                "role": null
+            },
+            {
+                "name": "Symfony Community",
+                "email": null,
+                "homepage": "http://symfony.com/contributors",
+                "role": null
+            }
+        ],
+        "description": "Symfony HttpKernel Component",
+        "homepage": "http://symfony.com",
+        "autoload": {
+            "psr-0": {
+                "Symfony\\Component\\HttpKernel": ""
             }
         }
     }
