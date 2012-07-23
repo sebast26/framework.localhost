@@ -4,16 +4,16 @@
         "version": "dev-master",
         "version_normalized": "9999999-dev",
         "target-dir": "Symfony/Component/ClassLoader",
-        "time": "2012-07-15 06:13:51",
+        "time": "2012-07-15 10:13:51",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/ClassLoader",
-            "reference": "v2.1.0-BETA3"
+            "reference": "v2.1.0-BETA4"
         },
         "dist": {
             "type": "zip",
-            "url": "https://github.com/symfony/ClassLoader/zipball/v2.1.0-BETA3",
-            "reference": "v2.1.0-BETA3",
+            "url": "https://github.com/symfony/ClassLoader/zipball/v2.1.0-BETA4",
+            "reference": "v2.1.0-BETA4",
             "shasum": ""
         },
         "require": {
@@ -59,16 +59,16 @@
         "version": "dev-master",
         "version_normalized": "9999999-dev",
         "target-dir": "Symfony/Component/HttpFoundation",
-        "time": "2012-07-21 17:52:19",
+        "time": "2012-07-23 11:18:38",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/HttpFoundation",
-            "reference": "bf8937c2e1488cec939a65c7f3aa8ef08079312c"
+            "reference": "v2.1.0-BETA4"
         },
         "dist": {
             "type": "zip",
-            "url": "https://github.com/symfony/HttpFoundation/zipball/bf8937c2e1488cec939a65c7f3aa8ef08079312c",
-            "reference": "bf8937c2e1488cec939a65c7f3aa8ef08079312c",
+            "url": "https://github.com/symfony/HttpFoundation/zipball/v2.1.0-BETA4",
+            "reference": "v2.1.0-BETA4",
             "shasum": ""
         },
         "require": {
@@ -116,12 +116,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/Routing",
-            "reference": "3630f2d08515bbad980c0d654433b6689cf460a2"
+            "reference": "v2.1.0-BETA4"
         },
         "dist": {
             "type": "zip",
-            "url": "https://github.com/symfony/Routing/zipball/3630f2d08515bbad980c0d654433b6689cf460a2",
-            "reference": "3630f2d08515bbad980c0d654433b6689cf460a2",
+            "url": "https://github.com/symfony/Routing/zipball/v2.1.0-BETA4",
+            "reference": "v2.1.0-BETA4",
             "shasum": ""
         },
         "require": {
