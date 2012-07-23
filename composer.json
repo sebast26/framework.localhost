@@ -1,0 +1,6 @@
+{
+    "require": {
+        "symfony/class-loader": "dev-master",
+        "symfony/http-foundation": "dev-master"
+	}
+}

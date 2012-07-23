@@ -1,0 +1,32 @@
+{
+    "hash": "42e07df9ea2034ef0adf834c37af60c0",
+    "packages": [
+        {
+            "package": "symfony/class-loader",
+            "version": "dev-master",
+            "source-reference": "v2.1.0-BETA3",
+            "commit-date": "1342347231"
+        },
+        {
+            "package": "symfony/http-foundation",
+            "version": "dev-master",
+            "alias-pretty-version": "2.1.x-dev",
+            "alias-version": "2.1.9999999.9999999-dev"
+        },
+        {
+            "package": "symfony/http-foundation",
+            "version": "dev-master",
+            "source-reference": "bf8937c2e1488cec939a65c7f3aa8ef08079312c",
+            "commit-date": "1342900339"
+        }
+    ],
+    "packages-dev": null,
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "symfony/class-loader": 20,
+        "symfony/http-foundation": 20
+    }
+}

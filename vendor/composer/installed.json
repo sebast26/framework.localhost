@@ -1,0 +1,110 @@
+[
+    {
+        "name": "symfony/class-loader",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "target-dir": "Symfony/Component/ClassLoader",
+        "time": "2012-07-15 08:13:51",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/ClassLoader",
+            "reference": "v2.1.0-BETA3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://github.com/symfony/ClassLoader/zipball/v2.1.0-BETA3",
+            "reference": "v2.1.0-BETA3",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "require-dev": {
+            "symfony/finder": "2.1.*"
+        },
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.1-dev"
+            }
+        },
+        "installation-source": "source",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com",
+                "homepage": null,
+                "role": null
+            },
+            {
+                "name": "Symfony Community",
+                "email": null,
+                "homepage": "http://symfony.com/contributors",
+                "role": null
+            }
+        ],
+        "description": "Symfony ClassLoader Component",
+        "homepage": "http://symfony.com",
+        "autoload": {
+            "psr-0": {
+                "Symfony\\Component\\ClassLoader": ""
+            }
+        }
+    },
+    {
+        "name": "symfony/http-foundation",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "target-dir": "Symfony/Component/HttpFoundation",
+        "time": "2012-07-21 19:52:19",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/HttpFoundation",
+            "reference": "bf8937c2e1488cec939a65c7f3aa8ef08079312c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://github.com/symfony/HttpFoundation/zipball/bf8937c2e1488cec939a65c7f3aa8ef08079312c",
+            "reference": "bf8937c2e1488cec939a65c7f3aa8ef08079312c",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.1-dev"
+            }
+        },
+        "installation-source": "source",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com",
+                "homepage": null,
+                "role": null
+            },
+            {
+                "name": "Symfony Community",
+                "email": null,
+                "homepage": "http://symfony.com/contributors",
+                "role": null
+            }
+        ],
+        "description": "Symfony HttpFoundation Component",
+        "homepage": "http://symfony.com",
+        "autoload": {
+            "psr-0": {
+                "Symfony\\Component\\HttpFoundation": "",
+                "SessionHandlerInterface": "Symfony/Component/HttpFoundation/Resources/stubs"
+            }
+        }
+    }
+]
