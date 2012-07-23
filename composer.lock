@@ -1,5 +1,5 @@
 {
-    "hash": "476892ab600febd23dc3094ee523a215",
+    "hash": "c1a34b6f838dd48a6f1f137bc6a8844b",
     "packages": [
         {
             "package": "symfony/class-loader",
@@ -30,12 +30,6 @@
             "version": "dev-master",
             "source-reference": "v2.1.0-BETA4",
             "commit-date": "1343042318"
-        },
-        {
-            "package": "symfony/http-kernel",
-            "version": "dev-master",
-            "alias-pretty-version": "2.1.x-dev",
-            "alias-version": "2.1.9999999.9999999-dev"
         },
         {
             "package": "symfony/http-kernel",
