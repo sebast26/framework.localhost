@@ -4,7 +4,7 @@
         "version": "dev-master",
         "version_normalized": "9999999-dev",
         "target-dir": "Symfony/Component/ClassLoader",
-        "time": "2012-07-15 10:13:51",
+        "time": "2012-07-15 08:13:51",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/ClassLoader",
@@ -59,7 +59,7 @@
         "version": "dev-master",
         "version_normalized": "9999999-dev",
         "target-dir": "Symfony/Component/HttpFoundation",
-        "time": "2012-07-25 07:38:36",
+        "time": "2012-07-25 05:38:36",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/HttpFoundation",
@@ -112,7 +112,7 @@
         "version": "dev-master",
         "version_normalized": "9999999-dev",
         "target-dir": "Symfony/Component/Routing",
-        "time": "2012-07-19 14:39:03",
+        "time": "2012-07-19 12:39:03",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/Routing",
@@ -175,7 +175,7 @@
         "version": "dev-master",
         "version_normalized": "9999999-dev",
         "target-dir": "Symfony/Component/EventDispatcher",
-        "time": "2012-07-19 23:18:14",
+        "time": "2012-07-19 21:18:14",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/EventDispatcher",
@@ -234,7 +234,7 @@
         "version": "dev-master",
         "version_normalized": "9999999-dev",
         "target-dir": "Symfony/Component/HttpKernel",
-        "time": "2012-07-23 17:27:52",
+        "time": "2012-07-23 15:27:52",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/HttpKernel",
@@ -298,6 +298,66 @@
         "autoload": {
             "psr-0": {
                 "Symfony\\Component\\HttpKernel": ""
+            }
+        }
+    },
+    {
+        "name": "symfony/dependency-injection",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "target-dir": "Symfony/Component/DependencyInjection",
+        "time": "2012-07-15 10:13:51",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/DependencyInjection",
+            "reference": "v2.1.0-BETA4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://github.com/symfony/DependencyInjection/zipball/v2.1.0-BETA4",
+            "reference": "v2.1.0-BETA4",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "require-dev": {
+            "symfony/yaml": "2.1.*",
+            "symfony/config": "2.1.*"
+        },
+        "suggest": {
+            "symfony/yaml": "dev-master",
+            "symfony/config": "dev-master"
+        },
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.1-dev"
+            }
+        },
+        "installation-source": "source",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com",
+                "homepage": null,
+                "role": null
+            },
+            {
+                "name": "Symfony Community",
+                "email": null,
+                "homepage": "http://symfony.com/contributors",
+                "role": null
+            }
+        ],
+        "description": "Symfony DependencyInjection Component",
+        "homepage": "http://symfony.com",
+        "autoload": {
+            "psr-0": {
+                "Symfony\\Component\\DependencyInjection": ""
             }
         }
     }

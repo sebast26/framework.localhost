@@ -1,14 +1,20 @@
 {
-    "hash": "c1a34b6f838dd48a6f1f137bc6a8844b",
+    "hash": "99d385d276a79c111572f709b94fba61",
     "packages": [
         {
             "package": "symfony/class-loader",
+            "version": "dev-master",
+            "source-reference": "v2.1.0-BETA4",
+            "commit-date": "1342347231"
+        },
+        {
+            "package": "symfony/dependency-injection",
             "version": "dev-master",
             "alias-pretty-version": "2.1.x-dev",
             "alias-version": "2.1.9999999.9999999-dev"
         },
         {
-            "package": "symfony/class-loader",
+            "package": "symfony/dependency-injection",
             "version": "dev-master",
             "source-reference": "v2.1.0-BETA4",
             "commit-date": "1342347231"
@@ -40,20 +46,8 @@
         {
             "package": "symfony/http-kernel",
             "version": "dev-master",
-            "alias-pretty-version": "2.1.x-dev",
-            "alias-version": "2.1.9999999.9999999-dev"
-        },
-        {
-            "package": "symfony/http-kernel",
-            "version": "dev-master",
             "source-reference": "91f3e0892bd0c7f2a5ade8a82024ec4925e26c64",
             "commit-date": "1343064472"
-        },
-        {
-            "package": "symfony/routing",
-            "version": "dev-master",
-            "alias-pretty-version": "2.1.x-dev",
-            "alias-version": "2.1.9999999.9999999-dev"
         },
         {
             "package": "symfony/routing",
@@ -72,6 +66,7 @@
         "symfony/http-foundation": 20,
         "symfony/routing": 20,
         "symfony/event-dispatcher": 20,
-        "symfony/http-kernel": 20
+        "symfony/http-kernel": 20,
+        "symfony/dependency-injection": 20
     }
 }
