@@ -4,6 +4,12 @@
         {
             "package": "symfony/class-loader",
             "version": "dev-master",
+            "alias-pretty-version": "2.1.x-dev",
+            "alias-version": "2.1.9999999.9999999-dev"
+        },
+        {
+            "package": "symfony/class-loader",
+            "version": "dev-master",
             "source-reference": "v2.1.0-BETA4",
             "commit-date": "1342347231"
         },
@@ -28,14 +34,26 @@
         {
             "package": "symfony/http-foundation",
             "version": "dev-master",
-            "source-reference": "v2.1.0-BETA4",
-            "commit-date": "1343042318"
+            "source-reference": "5dfe8c39f36b47c712b310af5a3b61523b2f2b56",
+            "commit-date": "1343201916"
+        },
+        {
+            "package": "symfony/http-kernel",
+            "version": "dev-master",
+            "alias-pretty-version": "2.1.x-dev",
+            "alias-version": "2.1.9999999.9999999-dev"
         },
         {
             "package": "symfony/http-kernel",
             "version": "dev-master",
             "source-reference": "91f3e0892bd0c7f2a5ade8a82024ec4925e26c64",
             "commit-date": "1343064472"
+        },
+        {
+            "package": "symfony/routing",
+            "version": "dev-master",
+            "alias-pretty-version": "2.1.x-dev",
+            "alias-version": "2.1.9999999.9999999-dev"
         },
         {
             "package": "symfony/routing",
